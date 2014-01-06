@@ -41,9 +41,53 @@
 
 <body <?php body_class(); ?>>
 	
-	<div id="page-wrap">
+	 <div id="page-wrap"> 
+		
+		<div class="wrapper clear-fix">
+		<header class="main">
+			<div class="logo">
 
-		<div id="header">
-			<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
-			<div class="description"><?php bloginfo('description'); ?></div>
-		</div>
+				<a href="/">
+					<!-- <img src="images/logo-head.png" >
+					</img> -->
+
+					<img class="left" src="<?php bloginfo('template_url'); ?>/images/logo-head.png" alt="Logo Gaby Valdes"/>
+				</a>
+
+			</div>
+
+			<div class="main head-menu">
+
+				<nav class="main">
+					<ul>
+						<li>
+							<a href="/">
+								Inicio
+							</a>
+						</li>
+						<li>
+							<a href="/blog/reflexiones/">
+								Reflexiones
+							</a>
+						</li>
+						<li>
+							<a href="/">
+								Productos
+							</a>
+						</li>
+						<li>
+							<a href="/contacto">
+								Contacto
+							</a>
+						</li>
+					</ul>
+				</nav>
+
+			</div>
+			
+		</header>
+
+		<!-- <div id="header">
+			<h1><a href="<?//php echo get_option('home'); ?>/"><?//php bloginfo('name'); ?></a></h1>
+			<div class="description"><?//php bloginfo('description'); ?></div>
+		</div> -->
