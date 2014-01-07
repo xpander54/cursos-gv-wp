@@ -11,6 +11,7 @@
 	   wp_enqueue_script('jquery');
 	}
 */
+
 	
 	// Clean up the <head>
 	function removeHeadLinks() {
