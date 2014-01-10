@@ -167,6 +167,66 @@ nav.main ul > li a:hover
 }
 
 
+
+
+.f-right
+{
+	float: right;
+	padding: 0;
+
+}
+
+.search-sidebar input
+{
+	font-size: 1.3em;
+	font-weight: bold;
+	height: 1.7em;
+}
+
+.btn-search
+{
+	background: #8A2F17;
+	color: #FFB932;
+}
+
+.edd-cart-item-title
+{	
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/*custom sidebar*/
+
+aside  h2
+{
+	background: none;
+	margin-top:1em;
+}
+
+aside ul
+{
+	list-style: none;
+}
+
+.cart_item 
+{
+	font-weight: bold;
+	color: #FFB932;
+	font-size: 1.4em;
+	background: #8A2F17;
+	padding: .5em .6em;
+	margin-top: .5em;
+	width: 80%;
+
+}
+
+.cart_item a
+{
+	color: #FFB932;
+}
+
+/*/custom-sidebar*/
+
 /*/Gaby Valdes CSS*/
 
 body 
@@ -188,7 +248,16 @@ body
 
 h1, h2, h3 { font-weight: normal; margin: 0 0 10px 0; }
 h1 { }
-h2 { }
+h2 
+{
+	color: #FFBA32;	
+	background: #809BD5;
+	font-family: 'copperplate_bold', serif;
+}
+h2 a 
+{
+	color: #FFBA32;	
+}
 h3 { }
 
 p { margin: 0 0 10px 0; }

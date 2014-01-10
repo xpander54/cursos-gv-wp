@@ -26,7 +26,7 @@
 
 	<?php else : ?>
 
-		<h2>No posts found.</h2>
+		<h2>No hay cursos.</h2>
 
 	<?php endif; ?>
 
