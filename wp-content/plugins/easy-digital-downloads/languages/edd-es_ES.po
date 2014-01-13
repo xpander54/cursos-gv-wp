@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Easy Digital Downloads\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-09 14:49-0600\n"
-"PO-Revision-Date: 2014-01-09 19:12-0600\n"
+"PO-Revision-Date: 2013-09-09 14:50-0600\n"
 "Last-Translator: Pippin Williamson <pippin@pippinsplugins.com>\n"
 "Language-Team: Matt Varone <contact@mattvarone.com>\n"
 "Language: es_AR\n"
@@ -917,7 +917,7 @@ msgstr "El descuento ingresado no es valido"
 #: ../templates/widget-cart-empty.php:3
 #: ../templates/widget-cart-checkout.php:2
 msgid "Checkout"
-msgstr "Pagar"
+msgstr "Caja"
 
 #: ../includes/install.php:64
 msgid "Purchase Confirmation"
@@ -1487,7 +1487,7 @@ msgstr "Ah agregado %s con exito al su carro de compras."
 
 #: ../includes/cart/functions.php:727
 msgid "Checkout."
-msgstr "Pagar."
+msgstr "Caja."
 
 #: ../includes/payments/functions.php:488
 #: ../includes/admin/payments/class-payments-table.php:178
@@ -1782,8 +1782,9 @@ msgid "Agree to Terms?"
 msgstr "Acepta los Términos?"
 
 #: ../includes/checkout/template.php:623
+#, fuzzy
 msgid "Purchase Total:"
-msgstr "Total:"
+msgstr "Texto de Compra"
 
 #: ../includes/checkout/template.php:649
 #: ../tmp/wordpress/wp-admin/comment.php:68
@@ -2632,8 +2633,9 @@ msgstr ""
 "probando."
 
 #: ../includes/admin/settings/register-settings.php:49
+#, fuzzy
 msgid "Checkout Page"
-msgstr "Pagar"
+msgstr "Caja"
 
 #: ../includes/admin/settings/register-settings.php:50
 #, fuzzy
@@ -11469,8 +11471,9 @@ msgid ""
 msgstr ""
 
 #: ../tmp/wordpress/wp-admin/edit-tags.php:258
+#, fuzzy
 msgid "Item added."
-msgstr "Producto agregado"
+msgstr "Nombre del item"
 
 #: ../tmp/wordpress/wp-admin/edit-tags.php:259
 #, fuzzy
@@ -24710,6 +24713,7 @@ msgid "Incorrect username or password."
 msgstr ""
 
 #: ../tmp/wordpress/wp-includes/class-wp-xmlrpc-server.php:305
+#, fuzzy
 msgid "Software Name"
 msgstr "Nombre del item"
 
@@ -29012,11 +29016,11 @@ msgstr "Para completar su compra debe ingresar o registrarce"
 
 #: ../templates/checkout_cart.php:6
 msgid "Item Name"
-msgstr "Producto"
+msgstr "Nombre del item"
 
 #: ../templates/checkout_cart.php:7
 msgid "Item Price"
-msgstr "Precio"
+msgstr "Precio del item"
 
 #: ../templates/checkout_cart.php:66
 #, fuzzy
