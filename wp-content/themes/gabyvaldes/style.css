@@ -59,7 +59,6 @@ Tags: black, brown
 * 
 	{ 
 		margin: 0; 
-		padding: 0; 
 	}
 
 .clear-fix:after 
@@ -69,6 +68,12 @@ Tags: black, brown
 	visibility: hidden; 
 	height: 0; 
 	clear: both; 
+}
+
+.padding-2em
+{
+	padding-right: 2em;
+
 }
 
 .main
@@ -172,7 +177,7 @@ nav.main ul > li a:hover
 .f-right
 {
 	float: right;
-	padding: 0;
+	
 
 }
 

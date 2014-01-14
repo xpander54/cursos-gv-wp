@@ -9,6 +9,7 @@
 					
 
 
+
 					
 
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -27,7 +28,7 @@
 
 								</div>
 
-								<?php edit_post_link('Editar entrada', '<p>', '</p>'); ?>
+								<?php /*edit_post_link('Editar entrada', '<p>', '</p>');*/ ?>
 
 							</div>
 							

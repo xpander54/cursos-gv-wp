@@ -38,7 +38,7 @@
 
 		<?php else : ?>
 
-			<h2>Not Found</h2>
+			<h2>404 Not Found</h2>
 
 		<?php endif; ?>
 		

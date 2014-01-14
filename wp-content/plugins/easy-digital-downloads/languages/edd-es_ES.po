@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Easy Digital Downloads\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-09 14:49-0600\n"
-"PO-Revision-Date: 2013-09-09 14:50-0600\n"
+"PO-Revision-Date: 2014-01-14 11:54-0600\n"
 "Last-Translator: Pippin Williamson <pippin@pippinsplugins.com>\n"
 "Language-Team: Matt Varone <contact@mattvarone.com>\n"
 "Language: es_AR\n"
@@ -937,7 +937,7 @@ msgstr "Fallo la Verificacion de la Compra"
 #: ../includes/install.php:77
 #: ../includes/admin/upgrades/upgrade-functions.php:203
 msgid "Your transaction failed, please try again or contact site support."
-msgstr ""
+msgstr "La transacción falló, por favor intenta de nuevo o contáctanos."
 
 #: ../includes/class-edd-cron.php:44
 msgid "Once Weekly"
@@ -1223,7 +1223,7 @@ msgstr ""
 #: ../includes/gateways/paypal-standard.php:397
 #, php-format
 msgid "PayPal Transaction ID: %s"
-msgstr ""
+msgstr "Transacción Paypal ID: %s"
 
 #: ../includes/gateways/paypal-standard.php:418
 #, fuzzy, php-format
@@ -1233,7 +1233,7 @@ msgstr "No se encontraron pagos"
 #: ../includes/gateways/paypal-standard.php:419
 #, php-format
 msgid "PayPal Refund Transaction ID: %s"
-msgstr ""
+msgstr "Devolución PayPal ID: %s"
 
 #: ../includes/gateways/functions.php:24
 #, fuzzy
@@ -2659,7 +2659,7 @@ msgstr ""
 
 #: ../includes/admin/settings/register-settings.php:63
 msgid "Failed Transaction Page"
-msgstr ""
+msgstr "Falllo de transacción"
 
 #: ../includes/admin/settings/register-settings.php:64
 #, fuzzy
@@ -3390,7 +3390,7 @@ msgstr ""
 
 #: ../includes/admin/payments/contextual-help.php:44
 msgid "This screen provides access to all of your store's transactions."
-msgstr ""
+msgstr "Transacciones anteriores:"
 
 #: ../includes/admin/payments/contextual-help.php:45
 msgid ""

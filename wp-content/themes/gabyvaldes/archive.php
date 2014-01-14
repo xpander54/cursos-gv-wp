@@ -78,7 +78,7 @@
 
 			
 						<!-- <div class="col-xs-4 col-md-4"> -->
-						<div class="col-xs-4 col-md-4 f-right">
+						<div class="col-xs-4 col-md-4 f-right padding-2em">
 								
 							<?php get_sidebar(); ?>
 

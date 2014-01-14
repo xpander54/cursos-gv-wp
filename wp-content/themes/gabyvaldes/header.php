@@ -48,7 +48,7 @@
 		<header class="main">
 			<div class="logo">
 
-				<a href="/">
+				<a href="http://www.gabyvaldes.com">
 					<!-- <img src="images/logo-head.png" >
 					</img> -->
 
@@ -62,22 +62,22 @@
 				<nav class="main">
 					<ul>
 						<li>
-							<a href="/">
+							<a href="http://www.gabyvaldes.com">
 								Inicio
 							</a>
 						</li>
 						<li>
-							<a href="/blog/reflexiones/">
+							<a href="http://www.gabyvaldes.com/blog/reflexiones/">
 								Reflexiones
 							</a>
 						</li>
 						<li>
-							<a href="/">
+							<a href="/downloads">
 								Productos
 							</a>
 						</li>
 						<li>
-							<a href="/contacto">
+							<a href="http://www.gabyvaldes.com/contacto">
 								Contacto
 							</a>
 						</li>
