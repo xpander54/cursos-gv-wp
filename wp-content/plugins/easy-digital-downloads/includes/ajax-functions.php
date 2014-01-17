@@ -114,7 +114,7 @@ function edd_ajax_add_to_cart() {
 
 		echo json_encode( $return );
 	}
-	edd_die();
+	edd_die();	
 }
 add_action( 'wp_ajax_edd_add_to_cart', 'edd_ajax_add_to_cart' );
 add_action( 'wp_ajax_nopriv_edd_add_to_cart', 'edd_ajax_add_to_cart' );

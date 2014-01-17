@@ -61,6 +61,11 @@ Tags: black, brown
 		margin: 0; 
 	}
 
+.float-right
+{
+	float:right;
+}
+
 .clear-fix:after 
 { 
 	content: '';
@@ -81,7 +86,6 @@ Tags: black, brown
 	width: 97%;
 	max-width: 920px;
 	margin: 0 auto;
-
 }
 
 
@@ -167,7 +171,7 @@ nav.main ul > li a:hover
 	background: rgba(220,232,238,.1);
 	padding: .5em 0 0.5em .5em;
 	margin: 1em auto 0 auto;
-	width: 95%;
+	/*width: 95%;*/
 	position: relative;
 }
 
@@ -200,7 +204,36 @@ nav.main ul > li a:hover
 	font-weight: bold;
 }
 
+
+/*cart-sidebar*/
+
+.reflexiones-cont-2cols
+{
+	width: 97%;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+.reflexiones-col-left
+{
+	margin-left: -1em;
+	background: #fffefe;
+
+}
+
+.reflexiones-col-right
+{
+	margin-right: -1em;
+	background: #fffefe;
+
+}
+
+/*/cart-sidebar*/
+
 /*custom sidebar*/
+
+
 
 aside  h2
 {
@@ -217,7 +250,7 @@ aside ul
 {
 	font-weight: bold;
 	color: #FFB932;
-	font-size: 1.4em;
+	font-size: 1.1em;
 	background: #8A2F17;
 	padding: .5em .6em;
 	margin-top: .5em;
@@ -256,7 +289,7 @@ h1 { }
 h2 
 {
 	color: #FFBA32;	
-	background: #809BD5;
+	background: #8A2F17;
 	font-family: 'copperplate_bold', serif;
 }
 h2 a 
