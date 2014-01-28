@@ -72,7 +72,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="/downloads">
+							<a href="/">
 								Productos
 							</a>
 						</li>
