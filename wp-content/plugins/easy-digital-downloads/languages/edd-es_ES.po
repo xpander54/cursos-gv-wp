@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Easy Digital Downloads\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-09 14:49-0600\n"
-"PO-Revision-Date: 2014-01-14 11:54-0600\n"
+"PO-Revision-Date: 2014-01-27 20:34-0600\n"
 "Last-Translator: Pippin Williamson <pippin@pippinsplugins.com>\n"
 "Language-Team: Matt Varone <contact@mattvarone.com>\n"
 "Language: es_AR\n"
@@ -1782,9 +1782,8 @@ msgid "Agree to Terms?"
 msgstr "Acepta los Términos?"
 
 #: ../includes/checkout/template.php:623
-#, fuzzy
 msgid "Purchase Total:"
-msgstr "Texto de Compra"
+msgstr "Total de Compra:"
 
 #: ../includes/checkout/template.php:649
 #: ../tmp/wordpress/wp-admin/comment.php:68
