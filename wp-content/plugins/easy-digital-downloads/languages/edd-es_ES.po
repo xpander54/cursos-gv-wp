@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Easy Digital Downloads\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-09 14:49-0600\n"
-"PO-Revision-Date: 2014-01-27 23:43-0600\n"
+"PO-Revision-Date: 2014-01-27 23:57-0600\n"
 "Last-Translator: Pippin Williamson <pippin@pippinsplugins.com>\n"
 "Language-Team: Matt Varone <contact@mattvarone.com>\n"
 "Language: es_AR\n"
@@ -687,7 +687,7 @@ msgstr "Por favor ingrese un codigo de descuento"
 
 #: ../includes/scripts.php:56
 msgid "Please Wait..."
-msgstr ""
+msgstr "Espere..."
 
 #: ../includes/scripts.php:70
 msgid "You have already added this item to your cart"
