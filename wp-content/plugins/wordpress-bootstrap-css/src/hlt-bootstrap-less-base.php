@@ -368,8 +368,8 @@ class HLT_BootstrapLess_Base {
 	}
 
 	/**
-	 * @param $insBootstrapDir
 	 * @param $insCompileTarget - currently only 'bootstrap'
+	 * @return boolean
 	 */
 	public function compileLess( $insCompileTarget = 'bootstrap' ) {
 		return true;

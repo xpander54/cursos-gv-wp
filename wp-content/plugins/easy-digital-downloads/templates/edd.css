@@ -336,15 +336,15 @@ input[type="submit"].edd-submit:focus,
 /** Blue */
 .edd-submit.button.blue {
   color: #ffffff;
-  background: #8A2F17;
-  border-color: #F3B336;
+  background: #428bca;
+  border-color: #357ebd;
 }
 .edd-submit.button.blue:hover,
 .edd-submit.button.blue:focus,
 .edd-submit.button.blue.active {
   color: #ffffff;
-  background: #8A2F17;;
-  border-color: #F3B336;
+  background: #3276b1;
+  border-color: #285e8e;
 }
 .edd-submit.button.blue.active {
   background-image: none;

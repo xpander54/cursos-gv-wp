@@ -63,10 +63,16 @@ class ICWP_WpFunctions_WPTB {
 		);
 		return add_query_arg( $aQueryArgs, $sUrl );
 	}
-	
+
+	/**
+	 * @return boolean
+	 */
 	public function getWordpressUpdates() {
 		$oCurrent = $this->getTransient( 'update_plugins' );
-		return $oCurrent->response;
+		if ( is_object( $oCurrent ) && isset( $oCurrent->response ) ) {
+			return $oCurrent->response;
+		}
+		return false;
 	}
 	
 	/**
