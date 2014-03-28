@@ -2,15 +2,21 @@
 	
 	// Add RSS links to <head> section
 	automatic_feed_links();
+
+  
 	
-	/* Load jQuery
+	/* Load jQuery */
 	if ( !is_admin() ) {
-	   wp_deregister_script('jquery');
-	  // wp_register_script('jquery', ("http:////ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"), false);
-       wp_register_script('jquery', ("http:////ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"), false);
+	 //  $urltemp = bloginfo('template_url');
+
+     wp_deregister_script('jquery');
+	   wp_register_script('jquery', ("http://code.jquery.com/jquery-latest.min.js"), false);
+     wp_register_script('shadowbox', (get_template_directory_uri() . "/shadowbox/shadowbox.js"), false);
+   //wp_register_script('jquery', ("http:////ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"), false);
 	   wp_enqueue_script('jquery');
+     wp_enqueue_script('shadowbox');
 	}
-*/
+
 
 	function catch_first_post_image() {
       global $post, $posts;

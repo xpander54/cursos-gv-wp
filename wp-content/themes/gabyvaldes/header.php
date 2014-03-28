@@ -77,6 +77,11 @@
 							</a>
 						</li>
 						<li>
+							<a href="/">
+								Testimonios
+							</a>
+						</li>
+						<li>
 							<a href="http://www.gabyvaldes.com/contacto">
 								Contacto
 							</a>

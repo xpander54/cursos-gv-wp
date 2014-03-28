@@ -28,11 +28,11 @@
 
 								</div>
 
-								<?php /*edit_post_link('Editar entrada', '<p>', '</p>');*/ ?>
+								<?php edit_post_link('Editar entrada', '<p>', '</p>'); ?>
 
 							</div>
 							
-							<?php /* comments_template(); */?>
+							<?php comments_template();?>
 
 						<?php endwhile; endif; ?>
 
