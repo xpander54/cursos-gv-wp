@@ -77,7 +77,7 @@
 							</a>
 						</li>
 						<li>
-							<a href="/">
+							<a href="http://cursos.gabyvaldes.com/testimonio/">
 								Testimonios
 							</a>
 						</li>
