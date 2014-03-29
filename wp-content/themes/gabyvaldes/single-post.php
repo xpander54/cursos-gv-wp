@@ -1,3 +1,9 @@
+<?php
+/*
+Template Name Posts: testimonios
+*/
+?>
+
 <?php get_header(); ?>
 
 	<section class="main">
@@ -12,7 +18,8 @@
 
 
 					<div class="row">
-					  <div class="col-xs-12 col-sm-6 col-md-8 content-main reflexiones-col-left" id="col-cart-1">
+						<div class="col-xs-12 col-sm-11 col-md-12 content-testimonios content-main">
+					  <!-- <div class="col-xs-12 col-sm-6 col-md-8 content-main reflexiones-col-left" id="col-cart-1"> -->
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -32,23 +39,24 @@
 
 									</div>
 									
-									<?php/*edit_post_link('Editar curso','','.');*/ ?>
+									<?php edit_post_link('Editar Post','','.'); ?>
 									
 								</div>
 
-							<?php/* comments_template();*/ ?>
+							<?php comments_template();?>
 
 							<?php endwhile; endif; ?>
 					
 						</div>
 
-					  <div class="col-xs-6 col-md-4 content-main float-right reflexiones-col-right" id="col-cart-2">
-
-					  	<?php get_sidebar(); ?>
-
-					  </div>
+					  <!-- <div class="col-xs-6 col-md-4 content-main float-right reflexiones-col-right" id="col-cart-2">
+					  
+					  	<?php// get_sidebar(); ?>
+					  
+					  </div> -->
 					</div>
 		</div>
+
 
 		</section>
 		<!-- /main		 -->
@@ -60,16 +68,3 @@
 <?php get_footer(); ?>
 
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/gv.js"></script>
-
-<script type="text/javascript">
-
-
-
-	$j=jQuery.noConflict();
-	$j(document).ready(function() {
-		
-		resizeCols();
-
-	});
-
-</script>

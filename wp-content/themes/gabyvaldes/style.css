@@ -176,7 +176,12 @@ nav.main ul > li a:hover
 }
 
 
-
+.content-testimonios
+{
+	background: #fffefe;
+	margin: 1em auto;
+	padding-top: 1em;
+}
 
 .f-right
 {
