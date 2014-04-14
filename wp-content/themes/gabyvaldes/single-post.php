@@ -18,7 +18,7 @@ Template Name Posts: testimonios
 
 
 					<div class="row">
-						<div class="col-xs-12 col-sm-11 col-md-12 content-testimonios content-main">
+						<div class="col-xs-12 col-sm-12 col-md-12 content-testimonios content-main">
 					  <!-- <div class="col-xs-12 col-sm-6 col-md-8 content-main reflexiones-col-left" id="col-cart-1"> -->
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>

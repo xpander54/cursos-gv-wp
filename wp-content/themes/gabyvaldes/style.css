@@ -20,22 +20,22 @@ Tags: black, brown
 
 @font-face {
     font-family: 'copperplate';
-    src: url('../fonts/copperplate-webfont.eot');
-    src: url('../fonts/copperplate-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/copperplate-webfont.woff') format('woff'),
-         url('../fonts/copperplate-webfont.ttf') format('truetype'),
-         url('../fonts/copperplate-webfont.svg#copperplateregular') format('svg');
+    src: url('../gabyvaldes/fonts/copperplate-webfont.eot');
+    src: url('../gabyvaldes/fonts/copperplate-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../gabyvaldes/fonts/copperplate-webfont.woff') format('woff'),
+         url('../gabyvaldes/fonts/copperplate-webfont.ttf') format('truetype'),
+         url('../gabyvaldes/fonts/copperplate-webfont.svg#copperplateregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'copperplate_bold';
-    src: url('../fonts/copperplate_condensed_ssi_condensed-webfont.eot');
-    src: url('../fonts/copperplate_condensed_ssi_condensed-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/copperplate_condensed_ssi_condensed-webfont.woff') format('woff'),
-         url('../fonts/copperplate_condensed_ssi_condensed-webfont.ttf') format('truetype'),
-         url('../fonts/copperplate_condensed_ssi_condensed-webfont.svg#copperplate_condensed_ssiCn') format('svg');
+    src: url('../gabyvaldes/fonts/copperplate_condensed_ssi_condensed-webfont.eot');
+    src: url('../gabyvaldes/fonts/copperplate_condensed_ssi_condensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../gabyvaldes/fonts/copperplate_condensed_ssi_condensed-webfont.woff') format('woff'),
+         url('../gabyvaldes/fonts/copperplate_condensed_ssi_condensed-webfont.ttf') format('truetype'),
+         url('../gabyvaldes/fonts/copperplate_condensed_ssi_condensed-webfont.svg#copperplate_condensed_ssiCn') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -133,7 +133,7 @@ nav.main ul > li
 	float: left;
 	width: 20%;
 	text-align: center;
-	margin: 0.3em 0 0 0;
+	/* margin: 0.3em 0 0 0; */
 	font-size: 18px;
 }
 
@@ -183,6 +183,26 @@ nav.main ul > li a:hover
 	padding-top: 1em;
 }
 
+.category-testimonios
+{
+	padding: 1em 0;
+}
+
+.txt-testimonios
+{
+	font-size: 2em;
+	text-align: justify;
+	line-height: 1.4em;
+	padding: .5em;
+}
+
+.gv-red
+{
+	color: red;
+	font-weight: bold;
+}
+
+
 .f-right
 {
 	float: right;
@@ -201,6 +221,7 @@ nav.main ul > li a:hover
 {
 	background: #8A2F17;
 	color: #FFB932;
+	padding-top: 0 !important;
 }
 
 .edd-cart-item-title

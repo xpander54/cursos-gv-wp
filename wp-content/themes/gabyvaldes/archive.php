@@ -73,8 +73,10 @@
 
 					  	<?php get_sidebar(); ?>
 
-					  </div>
-					</div>
+					  </div> 
+					  <!-- /col-sm -->
+					  					</div>
+					  					<!-- row -->
 			
 			<!-- </section> -->
 			<!-- /content-main -->
