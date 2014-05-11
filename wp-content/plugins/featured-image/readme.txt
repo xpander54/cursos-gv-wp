@@ -1,9 +1,9 @@
 === Featured Image ===
 Contributors: mervinpraison
 Donate Link: http://mervin.info
-Tags: image, featured image, widget, image widget, image featured, image widget
+Tags: image, featured image, widget, image widget, image featured, image widget, seo,
 Requires at least: 3.0
-Tested up to: 3.3
+Tested up to: 3.8.1
 Stable tag: trunk
 
 Add featured image to any part of the website, on each individual post/page. Very Easy to Implement. Shortcode and widget available. 
@@ -19,8 +19,10 @@ Paste the Code or the Shortcode on any part of the website.
 * Simple Shortcode Available
 * Easy code Implementation inside loop and outside loop.
 * Widge Avaliable
+* Featured Image Caption
 
 <a href="http://mervin.info/wordpress-featured-image">Wordpress Featured Image</a> Documentation By <a href="http://mervin.info/">Mervin</a> Praison
+<a href="http://seomanager.org.uk" >SEO Manager</a>
 
 == Installation ==
 
@@ -35,10 +37,17 @@ Paste the Code or the Shortcode on any part of the website.
 = Step 2 =
 
 * Use this shortcode '[featured-img]' on your page/post content.
+* Use this shortcode '[featured-img-caption]' on your page/post content for caption
 * Use this Code on your template inside loop: <?php if ( function_exists('get_featured_img') ) get_featured_img(); ?>
 
 
 == ChangeLog ==
+= Version 2.0 =
+
+* Added Featured Image Caption
+* Added Alt Text for images
+* Fixed Bugs
+
 = Version 1.0 =
 
 * First release.
@@ -60,11 +69,24 @@ Created the shortcode, widget and the php code
 
 == Version history ==
 
+= Version 2.0 =
+
+* Added Featured Image Caption
+* Added Alt Text for images
+* Fixed Bugs
+
 = Version 1.0 =
 
 * Initial release version.
 
 == Changelog ==
+
+= 2.0 =
+
+* Added Featured Image Caption
+* Added Alt Text for images
+* Fixed Bugs
+
 = 1.0 =
 
 * Shortcode was created
