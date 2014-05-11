@@ -1,0 +1,406 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stream Video Player V1.1.2 正體中文語系檔\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/stream-video-player\n"
+"POT-Creation-Date: 2010-02-07 01:31-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Rodrigo Polo <rodrigo.polo@gmail.com>\n"
+"Language-Team: http://jameswublog.com <blog@jameswublog.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: bootstrap.php:45
+msgid "You are not allowed to be here"
+msgstr "你不被允許到這裡"
+
+#: config.php:37
+msgid "Learn how to encode &quot;stream-ready&quot; videos with multi-platform free-tools and<br />how to use this plug-in by "
+msgstr "學習如何使用免費的工具 &quot;stream-ready&quot;  為影片編碼<br />如何使用本外掛 "
+
+#: config.php:38
+#: config.php:51
+#: stream-video-player.php:90
+msgid "clicking here"
+msgstr "按這裡"
+
+#: config.php:46
+msgid "WARNING:"
+msgstr ""
+
+#: config.php:46
+msgid "You don't have your crossdomain.xml file in the root folder of your web server, this file is required if you want to enable the &quot;embed&quot; option and to prevents issues loading content, however you can copy the crossdomain.xml included in this plug-in"
+msgstr ""
+
+#: config.php:47
+msgid "From:"
+msgstr ""
+
+#: config.php:49
+msgid "To:"
+msgstr ""
+
+#: config.php:51
+msgid "After copyng this file whis &quot;warning&quot; message will not appear, read more information about the crossdomain.xml"
+msgstr ""
+
+#: config.php:53
+msgid "indicates required field"
+msgstr "表示必填的字段"
+
+#: config.php:55
+msgid "Stream Player Tag Atributes"
+msgstr "串流播放器標籤屬性"
+
+#: config.php:58
+msgid "Base URL to save writing over and over again the full URL for the flv, img, mp4, hd and captions tags"
+msgstr "相對的URL，可用來節省反覆填寫FLV、IMG、MP4、高清和標題標籤影片的完整網址，所花費的時間"
+
+#: config.php:58
+msgid "Base URL:"
+msgstr "相對 URL："
+
+#: config.php:68
+msgid "Set the media provider, &quot;http&quot; is for pseudo-streming and is enable by default, choose &quot;video&quot; for progressively downloaded FLV, MP4, and AAC audio, choose &quot;sound&quot; for progressively downloaded MP3 files, choose &quot;image&quot; for JPG/GIF/PNG images, choose &quot;youtube&quot; for videos from Youtube and &quot;rtmp&quot; for FLV/MP4/MP3 files played from an RTMP server."
+msgstr "設定影音媒體的傳輸模式： &quot;http&quot;  是預設的虛擬串流影音格式。選擇 &quot;video&quot; 來持續穩定地下載 FLV, MP4, and AAC 音頻。 選擇 &quot;sound&quot; 來持續穩定地下載 MP3 檔案。選擇 &quot;image&quot;  來展示 JPG/GIF/PNG 這些影像檔。選擇 &quot;youtube&quot;  來播放Youtube 上的影片。選擇 &quot;rtmp&quot;  來播放使用RTMP 通訊協定的FLV/MP4/MP3 等影音檔案。"
+
+#: config.php:68
+msgid "Media provider:"
+msgstr "設定影音媒體的傳輸模式："
+
+#: config.php:85
+msgid "The absolute path to your file OR YouTube address"
+msgstr "檔案所在的絕對路徑，或是影片在 Youtube 上的網址"
+
+#: config.php:85
+msgid "Video:"
+msgstr "影片："
+
+#: config.php:96
+msgid "The absolute path to your image preview"
+msgstr "預覽相片所在的絕對路徑"
+
+#: config.php:96
+msgid "Image Preview (jpg or png):"
+msgstr "預覽照片（jpg 或 png 格式):"
+
+#: config.php:107
+msgid "The absolute path to your HD video"
+msgstr "高畫質HD影片檔案所在的絕對路徑"
+
+#: config.php:107
+msgid "HD Video for Player:"
+msgstr "高畫質HD影片播放器:"
+
+#: config.php:117
+msgid "The absolute path to your MP4 video for iPad, iPhone or iPod Touch"
+msgstr "MP4 影音檔案所在的絕對路徑， 供iPad、Phone 或  iPod Touch 所使用 "
+
+#: config.php:117
+msgid "iPhone-iPad Video (.mp4):"
+msgstr "iPhone-iPad 影音檔案 (.mp4): "
+
+#: config.php:127
+msgid "The absolute path to your XML captions file"
+msgstr "XML字幕所在的絕對路徑"
+
+#: config.php:127
+msgid "Captions (.xml):"
+msgstr "字幕 (.xml):"
+
+#: config.php:137
+msgid "Width &times; height in pixels"
+msgstr "寬度 &times;  高度像素"
+
+#: config.php:137
+msgid "Dimensions:"
+msgstr "尺寸："
+
+#: config.php:145
+msgid "Enable embed the player in other sites"
+msgstr "啟用嵌入其他網站播放器"
+
+#: config.php:145
+msgid "Enable Embed:"
+msgstr "啟用嵌入："
+
+#: config.php:156
+msgid "Enable the sharing of the URL of the post where the video is inserted"
+msgstr "啟用影音分享的URL連結"
+
+#: config.php:156
+msgid "Enable URL Share:"
+msgstr "啟用影音網址分享："
+
+#: config.php:167
+msgid "Show the Dock for this player"
+msgstr "在播放器上顯示控制面板"
+
+#: config.php:167
+msgid "Dock:"
+msgstr "Dock:"
+
+#: config.php:183
+msgid "Set the Control Bar position and visibility"
+msgstr "設定控制面板的位置和能見度"
+
+#: config.php:183
+msgid "Control Bar:"
+msgstr "控制面板："
+
+#: config.php:199
+msgid "Skin for this player"
+msgstr "播放器所使用的皮膚背景"
+
+#: config.php:199
+msgid "Skin:"
+msgstr "皮膚背景："
+
+#: config.php:215
+msgid "LongTail Ads Code"
+msgstr "LongTail 廣告代碼"
+
+#: config.php:215
+msgid "Ads Code:"
+msgstr "廣告代碼："
+
+#: config.php:223
+msgid "The absolute path to your video player logo, if empty takes the default value on the plug-in settings"
+msgstr "播放器Logo檔所在的絕對路徑。如無設定此選項，將使用外掛的預設值"
+
+#: config.php:223
+msgid "Logo (jpg or png):"
+msgstr "Logo （JPG或PNG）："
+
+#: config.php:233
+msgid "Set the desired bandwidth for cache and site bandwidth control"
+msgstr "設置所需的頻寬緩存和網站頻寬控制"
+
+#: config.php:233
+msgid "Bandwidth:"
+msgstr "頻寬："
+
+#: config.php:250
+msgid "Your video title"
+msgstr "您的影片標題"
+
+#: config.php:250
+#: stream-video-player.php:1201
+msgid "Title:"
+msgstr "標題："
+
+#: config.php:257
+msgid "Your video volume, from 0 to 100, if empty takes the default value on the plug-in settings"
+msgstr "您的影片數量，從0到100。如無設定此選項，將使用外掛的預設值"
+
+#: config.php:257
+msgid "Volume:"
+msgstr "數量："
+
+#: config.php:264
+msgid "Auto Start the video with the Stream Player"
+msgstr "播放器自動啟動影音播放"
+
+#: config.php:264
+msgid "Auto Start:"
+msgstr "自動啟動播放:"
+
+#: config.php:275
+msgid "To use another pseudo streaming script on other server, if is empty it takes the default value on the plug-in settings."
+msgstr "要使用來自其他服務器的另一個虛擬串流腳本。如無設定此選項，將使用外掛的預設值"
+
+#: config.php:275
+msgid "Streamer:"
+msgstr "串流:"
+
+#: config.php:282
+msgid "Fixes the HTML overlapping of the Flash Video by adding the parameter [wmode=opaque]."
+msgstr "透過添加參數 [wmode=opaque]，來修復HTML和 Flash影音重疊"
+
+#: config.php:282
+msgid "Fix HTML overlapping:"
+msgstr "修復HTML 重疊："
+
+#: config.php:293
+msgid "Generate"
+msgstr "產生"
+
+#: config.php:302
+msgid "Stream Video: This tag generator isn't going to put the stream video tag in your code."
+msgstr "串流影音：這個標籤產生器不會把串流影音的標籤放在您的代碼中。"
+
+#: medialibrary.php:30
+msgid "Select a file"
+msgstr "選擇一個檔案"
+
+#: stream-video-player.php:88
+msgid "You need to install or upgrade Flash Player to view this content, install or upgrade by "
+msgstr "您需要安裝新版的Flash播放器來觀看影片"
+
+#: stream-video-player.php:214
+msgid "(Video: Available only on a desktop browser)"
+msgstr "(影片: 只可用於在桌面的瀏覽器)"
+
+#: stream-video-player.php:229
+#: stream-video-player.php:425
+#: stream-video-player.php:733
+msgid "(video)"
+msgstr "(影片)"
+
+#: stream-video-player.php:423
+#: stream-video-player.php:529
+msgid "(Video: Watch this video on the post page)"
+msgstr "(影片: 在發佈的文章中觀看此影片)"
+
+#: stream-video-player.php:782
+msgid "Video Properties"
+msgstr "影片內容"
+
+#: stream-video-player.php:782
+msgid "Layout"
+msgstr "外觀"
+
+#: stream-video-player.php:782
+msgid "Behavior"
+msgstr "使用控制"
+
+#: stream-video-player.php:782
+msgid "System"
+msgstr "系統"
+
+#: stream-video-player.php:811
+msgid "Options saved."
+msgstr "選項已儲存。"
+
+#: stream-video-player.php:815
+msgid "Stream Video Options"
+msgstr "串流影音選項"
+
+#: stream-video-player.php:818
+msgid "Here you can set some default global options for all your videos, if you need help or more information on how to encode and prepare your video to be a pseudo stream compliant check out the"
+msgstr "在這裡您可以為您的影片設定一些預設的整體選項。如果您需要幫助或是更進一步瞭解，關於如何轉碼和製作出符合虛擬串流標準的影片，請參考"
+
+#: stream-video-player.php:818
+msgid "FAQs"
+msgstr "常見問題與解答"
+
+#: stream-video-player.php:818
+msgid "where you can find a lot of free and open resources to encode your video."
+msgstr "在此您可以找到許多公開源碼的資源，來為您的影片轉碼。"
+
+#: stream-video-player.php:860
+msgid "Update Options"
+msgstr "更新選項"
+
+#: stream-video-player.php:896
+#: stream-video-player.php:1198
+msgid "Title"
+msgstr "標題"
+
+#: stream-video-player.php:901
+msgid "Preview Image"
+msgstr "預覽相片"
+
+#: stream-video-player.php:908
+msgid "Player Width"
+msgstr "播放器寬度"
+
+#: stream-video-player.php:913
+msgid "Player Height"
+msgstr "播放器高度"
+
+#: stream-video-player.php:918
+msgid "Skin"
+msgstr "皮膚背景"
+
+#: stream-video-player.php:924
+msgid "Logo"
+msgstr "Logo 標誌"
+
+#: stream-video-player.php:929
+msgid "Dock"
+msgstr "控制台"
+
+#: stream-video-player.php:935
+msgid "Control Bar"
+msgstr "控制面板"
+
+#: stream-video-player.php:943
+msgid "Auto Start"
+msgstr "自動播放"
+
+#: stream-video-player.php:948
+msgid "Startup Volume"
+msgstr "開始播放的音量"
+
+#: stream-video-player.php:954
+msgid "Show Share URL"
+msgstr "顯示影音分享網址"
+
+#: stream-video-player.php:959
+msgid "Show Embed HTML Code"
+msgstr "顯示嵌入HTML代碼"
+
+#: stream-video-player.php:966
+msgid "Default media provider<br /><small>http = pseudo-streaming</small>"
+msgstr "預設的影音媒體的傳輸模式 <br /><small>http = 虛擬串流</small>"
+
+#: stream-video-player.php:972
+msgid "Pseudo-Streamer URL"
+msgstr "虛擬串流網址URL"
+
+#: stream-video-player.php:978
+msgid "Bandwidth"
+msgstr "頻寬"
+
+#: stream-video-player.php:984
+msgid "HTML Wrapper"
+msgstr "HTML Wrapper"
+
+#: stream-video-player.php:989
+msgid "Use own SWFObject.js"
+msgstr "使用自己的 SWFObject.js"
+
+#: stream-video-player.php:994
+msgid "Show player only on single pages"
+msgstr "只在單頁上顯示播放器"
+
+#: stream-video-player.php:1152
+msgid "Put your video tag short code here to include some widget videos."
+msgstr "如您需要加入widget 的影片，把您的影片標籤放在這裡。"
+
+#: stream-video-player.php:1205
+msgid "Video Tag:"
+msgstr "視頻標籤："
+
+#: stream-video-player.php:1209
+msgid "Type or paste here a video tag short code to display a video, you can add multiple tags on this widget and text if you want, if you need a help generating a video tag enter to the page or post editor and generate one with the video tag generator, take in count the widget width size to make your video fit it, if your video is very small consider not using the control bar."
+msgstr "輸入或貼上影片的簡短代碼，即可顯示影片。如需顯示數個影片，您可以加入一個以上的標籤。您可以使用影片標籤產生器來幫助您取得影片的標籤。如您是把影片放置在Widget 中，請您留意影片的寬度是否適當。如果您的影片尺寸很小，可考慮不要用這個控制。"
+
+#: stream-video-player.php:1212
+msgid "Display Title"
+msgstr "顯示標題"
+
+#. Plugin Name of an extension
+msgid "Stream Video Player"
+msgstr "Stream Video Player"
+
+#. Plugin URI of an extension
+msgid "http://rodrigopolo.com/about/wp-stream-video"
+msgstr "http://rodrigopolo.com/about/wp-stream-video"
+
+#. Description of an extension
+msgid "By far the best and most complete video-audio player plug-in for WordPress. iPhone, iPad and HD video compatible."
+msgstr "目前最好、最完整的 Wordpress 影音播放器外掛。 支援 iPhone、Pad和高畫質HD影片。"
+
+#. Author of an extension
+msgid "Rodrigo Polo"
+msgstr "Rodrigo Polo"
+
+#. Author URI of an extension
+msgid "http://rodrigopolo.com"
+msgstr "http://rodrigopolo.com"
+

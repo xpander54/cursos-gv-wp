@@ -1,0 +1,405 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: stream video player\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/stream-video-player\n"
+"POT-Creation-Date: 2010-02-07 01:31-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Rodrigo Polo <rodrigo.polo@gmail.com>\n"
+"Language-Team: GadgetGuru.co.il <info@gadgetguru.co.il>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Hebrew\n"
+"X-Poedit-Country: ISRAEL\n"
+
+#: bootstrap.php:45
+msgid "You are not allowed to be here"
+msgstr "אין לך הרשאה להיות כאן"
+
+#: config.php:37
+msgid "Learn how to encode &quot;stream-ready&quot; videos with multi-platform free-tools and<br />how to use this plug-in by "
+msgstr "למד כיצד לקודד קטעי וידאו &quot;stream-ready&quot; עם  פלטפורמת כלים חופשית<br />ומידע כיצד להשתמש עם תוסף זה"
+
+#: config.php:38
+#: config.php:51
+#: stream-video-player.php:90
+msgid "clicking here"
+msgstr "לחיצה כאן"
+
+#: config.php:46
+msgid "WARNING:"
+msgstr ""
+
+#: config.php:46
+msgid "You don't have your crossdomain.xml file in the root folder of your web server, this file is required if you want to enable the &quot;embed&quot; option and to prevents issues loading content, however you can copy the crossdomain.xml included in this plug-in"
+msgstr ""
+
+#: config.php:47
+msgid "From:"
+msgstr ""
+
+#: config.php:49
+msgid "To:"
+msgstr ""
+
+#: config.php:51
+msgid "After copyng this file whis &quot;warning&quot; message will not appear, read more information about the crossdomain.xml"
+msgstr ""
+
+#: config.php:53
+msgid "indicates required field"
+msgstr "מציין שדה נדרש"
+
+#: config.php:55
+msgid "Stream Player Tag Atributes"
+msgstr "תכונות תג לנגן"
+
+#: config.php:58
+msgid "Base URL to save writing over and over again the full URL for the flv, img, mp4, hd and captions tags"
+msgstr "URL בסיסי לשמור מפני כתיבה שוב ושוב של כתובת האתר המלאה עבור flv, img, MP4, HD ותגים כיתובים"
+
+#: config.php:58
+msgid "Base URL:"
+msgstr "URL בסיסי:"
+
+#: config.php:68
+msgid "Set the media provider, &quot;http&quot; is for pseudo-streming and is enable by default, choose &quot;video&quot; for progressively downloaded FLV, MP4, and AAC audio, choose &quot;sound&quot; for progressively downloaded MP3 files, choose &quot;image&quot; for JPG/GIF/PNG images, choose &quot;youtube&quot; for videos from Youtube and &quot;rtmp&quot; for FLV/MP4/MP3 files played from an RTMP server."
+msgstr "הגדר את ספק המדיה שלך,  &quot;http&quot; עבור pseudo-streming והוא מאפשר, כברירת מחדל, בחר &quot;video&quot; להורדה הדרגתית FLV, MP4, ו AAC audio, בחר &quot;audio&quot; להורדה הדרגתית MP3 , בחר &quot;image&quot; עבור תמונות JPG/GIF/PNG , בחר &quot;youtube&quot; לסירטונים מאתר Youtube ו קבצי  &quot;rtmp&quot; עבור FLV/MP4/MP3 לקבצים הנתמכים בשרת RTMP."
+
+#: config.php:68
+msgid "Media provider:"
+msgstr "ספק מדיה:"
+
+#: config.php:85
+msgid "The absolute path to your file OR YouTube address"
+msgstr "נתיב מוחלט אל הקובץ שלך או כתובת YouTube"
+
+#: config.php:85
+msgid "Video:"
+msgstr "וידאו:"
+
+#: config.php:96
+msgid "The absolute path to your image preview"
+msgstr "נתיב מוחלט לתמונת תצוגה מקדימה שלך"
+
+#: config.php:96
+msgid "Image Preview (jpg or png):"
+msgstr "תמונה לתצוגה מקדימה (jpg או png):"
+
+#: config.php:107
+msgid "The absolute path to your HD video"
+msgstr "נתיב מוחלט לוידאו HD שלך"
+
+#: config.php:107
+msgid "HD Video for Player:"
+msgstr "וידאו HD עבור הנגן:"
+
+#: config.php:117
+msgid "The absolute path to your MP4 video for iPad, iPhone or iPod Touch"
+msgstr "נתיב מוחלט לוידאו MP4 שלך עבור iPad Touch, iPhone או iPod"
+
+#: config.php:117
+msgid "iPhone-iPad Video (.mp4):"
+msgstr "iPhone-iPad וידאו (.mp4):"
+
+#: config.php:127
+msgid "The absolute path to your XML captions file"
+msgstr "נתיב מוחלט לקובץ XML כיתובים שלך"
+
+#: config.php:127
+msgid "Captions (.xml):"
+msgstr "כיתובים (.xml):"
+
+#: config.php:137
+msgid "Width &times; height in pixels"
+msgstr "רוחב &times;  גובה בפיקסלים"
+
+#: config.php:137
+msgid "Dimensions:"
+msgstr "מימדים:"
+
+#: config.php:145
+msgid "Enable embed the player in other sites"
+msgstr "אפשר לשבץ את הנגן באתרים אחרים"
+
+#: config.php:145
+msgid "Enable Embed:"
+msgstr "אפשר שיבוץ Embed:"
+
+#: config.php:156
+msgid "Enable the sharing of the URL of the post where the video is inserted"
+msgstr "לאפשר שיתוף של כתובת האתר היכן שהוידאו מוכנס"
+
+#: config.php:156
+msgid "Enable URL Share:"
+msgstr "אפשר שיתוף כתובת אתר:"
+
+#: config.php:167
+msgid "Show the Dock for this player"
+msgstr "הצג Dock - עוגן כלים עבור נגן זה"
+
+#: config.php:167
+msgid "Dock:"
+msgstr "Dock - עוגן כלים:"
+
+#: config.php:183
+msgid "Set the Control Bar position and visibility"
+msgstr "הגדרת מיקום ונראות סרגל בקרה"
+
+#: config.php:183
+msgid "Control Bar:"
+msgstr "סרגל בקרה:"
+
+#: config.php:199
+msgid "Skin for this player"
+msgstr "סקין - ערכת נושא לנגן זה"
+
+#: config.php:199
+msgid "Skin:"
+msgstr "סקין - ערכת נושא:"
+
+#: config.php:215
+msgid "LongTail Ads Code"
+msgstr "LongTail קוד מודעות"
+
+#: config.php:215
+msgid "Ads Code:"
+msgstr "קוד מודעות:"
+
+#: config.php:223
+msgid "The absolute path to your video player logo, if empty takes the default value on the plug-in settings"
+msgstr "את הנתיב המוחלט אל הלוגו לנגן וידאו שלך, אם ריק נלקח ערך ברירת המחדל של הגדרות התוסף"
+
+#: config.php:223
+msgid "Logo (jpg or png):"
+msgstr "לוגו (jpg או png):"
+
+#: config.php:233
+msgid "Set the desired bandwidth for cache and site bandwidth control"
+msgstr "הגדר את רוחב הפס הרצוי עבור מטמון וניהול רוחב פס באתר"
+
+#: config.php:233
+msgid "Bandwidth:"
+msgstr "רוחב פס:"
+
+#: config.php:250
+msgid "Your video title"
+msgstr "כותרת הוידאו שלך"
+
+#: config.php:250
+#: stream-video-player.php:1201
+msgid "Title:"
+msgstr "כותרת:"
+
+#: config.php:257
+msgid "Your video volume, from 0 to 100, if empty takes the default value on the plug-in settings"
+msgstr "עוצמת הקול בוידאו שלך בין 0 ל -100, אם ריק נלקח ערך ברירת המחדל של הגדרות התוסף"
+
+#: config.php:257
+msgid "Volume:"
+msgstr "עוצמת הקול:"
+
+#: config.php:264
+msgid "Auto Start the video with the Stream Player"
+msgstr "הפעלה אוטומטית של הוידאו עם נגן Stream"
+
+#: config.php:264
+msgid "Auto Start:"
+msgstr "הפעלה אוטומטית:"
+
+#: config.php:275
+msgid "To use another pseudo streaming script on other server, if is empty it takes the default value on the plug-in settings."
+msgstr "כדי להשתמש עוד סקריפט pseudo streaming בשרת אחר,  אם ריק נלקח ערך ברירת המחדל של הגדרות התוסף"
+
+#: config.php:275
+msgid "Streamer:"
+msgstr "נגן:"
+
+#: config.php:282
+msgid "Fixes the HTML overlapping of the Flash Video by adding the parameter [wmode=opaque]."
+msgstr "מתקן HTML חופפים של וידאו פלאש על ידי הוספת הפרמטר [wmode=opaque]."
+
+#: config.php:282
+msgid "Fix HTML overlapping:"
+msgstr "תקן HTML חופפים:"
+
+#: config.php:293
+msgid "Generate"
+msgstr "צור"
+
+#: config.php:302
+msgid "Stream Video: This tag generator isn't going to put the stream video tag in your code."
+msgstr "נגן ווידאו: מחולל תג זה לא הולך לשים את תג Video Stream בקוד שלך."
+
+#: medialibrary.php:30
+msgid "Select a file"
+msgstr "בחר קובץ"
+
+#: stream-video-player.php:88
+msgid "You need to install or upgrade Flash Player to view this content, install or upgrade by "
+msgstr "עליך להתקין או לשדרג את נגן הפלאש  Flash Player כדי להציג תוכן זה, התקנה או שדרוג על ידי"
+
+#: stream-video-player.php:214
+msgid "(Video: Available only on a desktop browser)"
+msgstr "(וידאו: זמינים רק על דפדפן שולחן העבודה)"
+
+#: stream-video-player.php:229
+#: stream-video-player.php:425
+#: stream-video-player.php:733
+msgid "(video)"
+msgstr "(וידאו)"
+
+#: stream-video-player.php:423
+#: stream-video-player.php:529
+msgid "(Video: Watch this video on the post page)"
+msgstr "(וידאו: צפה בוידיאו זה בדף פירסום)"
+
+#: stream-video-player.php:782
+msgid "Video Properties"
+msgstr "מאפייני וידיאו"
+
+#: stream-video-player.php:782
+msgid "Layout"
+msgstr "פריסה"
+
+#: stream-video-player.php:782
+msgid "Behavior"
+msgstr "התנהגות"
+
+#: stream-video-player.php:782
+msgid "System"
+msgstr "מערכת"
+
+#: stream-video-player.php:811
+msgid "Options saved."
+msgstr "האפשרויות נשמרו."
+
+#: stream-video-player.php:815
+msgid "Stream Video Options"
+msgstr "אפשרויות נגן וידאו"
+
+#: stream-video-player.php:818
+msgid "Here you can set some default global options for all your videos, if you need help or more information on how to encode and prepare your video to be a pseudo stream compliant check out the"
+msgstr "כאן תוכלו להגדיר מספר אפשרויות ברירת המחדל באופן גלובלי עבור כל קטעי וידאו שלך, אם אתה זקוק לעזרה או מידע נוסף על איך לקודד ולהכין את הווידאו שלך לתאימות לתוסף pseudo stream"
+
+#: stream-video-player.php:818
+msgid "FAQs"
+msgstr "שאלות נפוצות"
+
+#: stream-video-player.php:818
+msgid "where you can find a lot of free and open resources to encode your video."
+msgstr "היכן שניתן למצוא הרבה משאבים חופשיים לקידוד של הוידאו שלך."
+
+#: stream-video-player.php:860
+msgid "Update Options"
+msgstr "עדכון אפשרויות"
+
+#: stream-video-player.php:896
+#: stream-video-player.php:1198
+msgid "Title"
+msgstr "כותרת"
+
+#: stream-video-player.php:901
+msgid "Preview Image"
+msgstr "תמונה לתצוגה מקדימה"
+
+#: stream-video-player.php:908
+msgid "Player Width"
+msgstr "רוחב הנגן"
+
+#: stream-video-player.php:913
+msgid "Player Height"
+msgstr "גובה הנגן"
+
+#: stream-video-player.php:918
+msgid "Skin"
+msgstr "סקין - ערכת נושא"
+
+#: stream-video-player.php:924
+msgid "Logo"
+msgstr "לוגו"
+
+#: stream-video-player.php:929
+msgid "Dock"
+msgstr "Dock - עוגן כלים"
+
+#: stream-video-player.php:935
+msgid "Control Bar"
+msgstr "סרגל בקרה:"
+
+#: stream-video-player.php:943
+msgid "Auto Start"
+msgstr "הפעלה אוטומטית"
+
+#: stream-video-player.php:948
+msgid "Startup Volume"
+msgstr "עוצמת קול בהפעלה"
+
+#: stream-video-player.php:954
+msgid "Show Share URL"
+msgstr "הצג כתובת שיתוף"
+
+#: stream-video-player.php:959
+msgid "Show Embed HTML Code"
+msgstr "הצג קוד שיבוץ HTML"
+
+#: stream-video-player.php:966
+msgid "Default media provider<br /><small>http = pseudo-streaming</small>"
+msgstr "ספקית מדיה ברירת מחדל <br /><small>http = pseudo-streaming</small>"
+
+#: stream-video-player.php:972
+msgid "Pseudo-Streamer URL"
+msgstr "כתובת Pseudo-Streamer URL"
+
+#: stream-video-player.php:978
+msgid "Bandwidth"
+msgstr "רוחב פס"
+
+#: stream-video-player.php:984
+msgid "HTML Wrapper"
+msgstr "מעטפת HTML"
+
+#: stream-video-player.php:989
+msgid "Use own SWFObject.js"
+msgstr "השתמש ב SWFObject.js שלך"
+
+#: stream-video-player.php:994
+msgid "Show player only on single pages"
+msgstr "הצג נגן רק בדפים בודדים"
+
+#: stream-video-player.php:1152
+msgid "Put your video tag short code here to include some widget videos."
+msgstr "שים קוד תג ווידאו כאן כדי לכלול כמה קטעי וידאו ביישומון."
+
+#: stream-video-player.php:1205
+msgid "Video Tag:"
+msgstr "תגיות וידאו:"
+
+#: stream-video-player.php:1209
+msgid "Type or paste here a video tag short code to display a video, you can add multiple tags on this widget and text if you want, if you need a help generating a video tag enter to the page or post editor and generate one with the video tag generator, take in count the widget width size to make your video fit it, if your video is very small consider not using the control bar."
+msgstr "הקלד או הדבק כאן תג קוד וידאו קצר כדי להציג וידאו, אתה יכול להוסיף תגים מרובים ביישומון זה וביישומון טקסט אם תרצה, אם אתה צריך עזרה ליצור תגית ווידאו היכנס לדף או לעורך פוסט כדי ליצור אחד עם מחולל תגיות הווידאו, יש לקחת בחשבון את רוחב יישומון על מנת שהוידאו יהיה מתאים, אם הוידאו שלך קטן מאוד שקול לא להשתמש בסרגל שליטה."
+
+#: stream-video-player.php:1212
+msgid "Display Title"
+msgstr "הצג כותרת"
+
+#. Plugin Name of an extension
+msgid "Stream Video Player"
+msgstr "Stream Video Player"
+
+#. Plugin URI of an extension
+msgid "http://rodrigopolo.com/about/wp-stream-video"
+msgstr "http://rodrigopolo.com/about/wp-stream-video"
+
+#. Description of an extension
+msgid "By far the best and most complete video-audio player plug-in for WordPress. iPhone, iPad and HD video compatible."
+msgstr "ללא ספק התוסף הטוב ביותר לוידאו ואודיו ל Wordpress עבור עבור iPhone, iPad וגם וידאו HD תואם."
+
+#. Author of an extension
+msgid "Rodrigo Polo"
+msgstr "Rodrigo Polo"
+
+#. Author URI of an extension
+msgid "http://rodrigopolo.com"
+msgstr "http://rodrigopolo.com"
+

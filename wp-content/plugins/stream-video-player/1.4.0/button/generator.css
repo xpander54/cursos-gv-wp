@@ -1,0 +1,114 @@
+.wrap {
+	width: 622px;
+	margin:0 0 0 5px;
+}
+.wrap h2 {
+	padding:0 15px 3px 0;
+}
+fieldset {
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+.col1, .col2, .col3, .col4, .col5 {
+	float: left;
+	display: inline;
+}
+.col1 {
+	white-space: nowrap;
+	width: 190px;
+}
+.col2 {
+	width: 410px;
+}
+.col3 {
+	width: 105px;
+}
+.col4 {
+	width: 130px;
+}
+.col5 {
+	width: 350px;
+}
+.col6 {
+	white-space: nowrap;
+	width: 339px;
+}
+.help, .clear {
+	clear: left;
+}
+div.clear {
+	height: 1px;
+}
+
+* {
+	font-size: 12px;
+	line-height: 21px;
+}
+textarea {
+	font-family: Courier, monospace;
+	line-height: 14px;
+}
+div {
+	vertical-align: text-bottom;
+}
+fieldset {
+	margin: 6px 0;
+}
+input {
+	line-height: normal;
+}
+
+input[type=text],
+select,
+textarea {
+	width: 90%;
+}
+.col2 textarea,
+.col2 input,
+.col5 input {
+	width: 100%;
+}
+input#width,
+input#height,
+input#volume
+{
+	width: auto;
+}
+a {
+	color: blue;
+}
+.info {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+.req {
+	color: red;
+}
+.note, .note a {
+	font-size: 10px;
+	color: #666;
+	line-height:100%;
+}
+.note a {
+	color:#06C;
+	text-decoration:none;
+	font-weight:bold;
+}
+.help {
+	margin: 0 0 10px;
+	padding: 10px 10px 0;
+	border: 1px solid #ccc;
+	background-color: #ffc;
+}
+.help h2, .help h3, .help p, .help ul, .help li {
+	margin: 0;
+	font-size: 11px;
+	line-height: 14px;
+}
+.help h2, .help p, .help ul {
+	padding-bottom: 10px;
+}
+.help h3 {
+	color: #666;
+}
+

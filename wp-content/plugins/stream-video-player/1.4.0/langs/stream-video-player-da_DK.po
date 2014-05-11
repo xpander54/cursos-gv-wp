@@ -1,0 +1,404 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stream Video Player 1.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-04 21:30+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Team Blogos <wordpress@blogos.dk>\n"
+"Language-Team: Team Blogos <wordpress@blogos.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;_nc:4c,1,2;_nx:4c,1,2;_n_noop:1,2;_nx_noop:4c,1,2;_x:1,2c;_c;esc_html__;esc_html_e;esc_html_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c\n"
+"X-Poedit-Basepath: d:\\wordpress\\plugins\\stream-video-player\n"
+"X-Poedit-SearchPath-0: d:\\wordpress\\plugins\\stream-video-player\n"
+
+#: d:\wordpress\plugins\stream-video-player/bootstrap.php:45
+msgid "You are not allowed to be here"
+msgstr "Du har ikke tilladelse til at være her"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:30
+msgid "Learn how to encode &quot;stream-ready&quot; videos with multi-platform free-tools and<br />how to use this plug-in by "
+msgstr "Lær, hvordan du skal indsætte &quot;stream-klare&quot; videoer med gratis værktøjer til flere platforme og<br />hvordan du skal bruge dette plugin "
+
+#: d:\wordpress\plugins\stream-video-player/config.php:31
+#: d:\wordpress\plugins\stream-video-player/config.php:44
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:90
+msgid "clicking here"
+msgstr "ved at klikke her"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:39
+msgid "WARNING:"
+msgstr "ADVARSEL:"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:39
+msgid "You don't have your crossdomain.xml file in the root folder of your web server, this file is required if you want to enable the &quot;embed&quot; option and to prevents issues loading content, however you can copy the crossdomain.xml included in this plug-in"
+msgstr "Du har ikke din crossdomain.xml-fil i root-mappen på din webserver. Denne fil er obligatorisk, hvis du ønsker at aktivere &quot;<span title=\"embed\">indsæt</span>&quot;-indstillingen, og hvis du vil forebygge problemer med at indlæse indholdet. Du kan dog kopiere den crossdomain.xml, der følger med dette plugin"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:40
+msgid "From:"
+msgstr "Fra:"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:42
+msgid "To:"
+msgstr "Til:"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:44
+msgid "After copyng this file whis &quot;warning&quot; message will not appear, read more information about the crossdomain.xml"
+msgstr "Når du har kopieret denne fil, vises denne &quot;advarsel&quot; ikke mere. Få flere informationer om crossdomain.xl "
+
+#: d:\wordpress\plugins\stream-video-player/config.php:48
+msgid "indicates required field"
+msgstr "betyder, at feltet skal udfyldes"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:50
+msgid "Stream Player Tag Atributes"
+msgstr "Stream Players Tagattributter"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:53
+msgid "Base URL to save writing over and over again the full URL for the flv, img, mp4, hd and captions tags"
+msgstr "Basis-URL, så du ikke behøver at skrive den fulde URL igen og igen for flv-, img-, mp4-, hd- og undertekst-tags."
+
+#: d:\wordpress\plugins\stream-video-player/config.php:53
+msgid "Base URL:"
+msgstr "Basis-URL:"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:63
+msgid "Set the media provider, &quot;http&quot; is for pseudo-streming and is enable by default, choose &quot;video&quot; for progressively downloaded FLV, MP4, and AAC audio, choose &quot;sound&quot; for progressively downloaded MP3 files, choose &quot;image&quot; for JPG/GIF/PNG images, choose &quot;youtube&quot; for videos from Youtube and &quot;rtmp&quot; for FLV/MP4/MP3 files played from an RTMP server."
+msgstr "Sæt medieleverandør: &quot;http&quot; er til pseudo-streaming er aktiveret som standard. Vælg &quot;video&quot; for progressivt downloadet FLV, MP4, og AAC-audio. Vælg &quot;sound&quot; for progressivt downloadede MP3-filer. Vælg &quot;image&quot; for JPG/GIF/PNG-billeder. Vælg &quot;youtube&quot; for videoer fra YouTube eller &quot;rtmp&quot; for FLV/MP4/MP3-filer, som afspilles fra en RTMP-server."
+
+#: d:\wordpress\plugins\stream-video-player/config.php:63
+msgid "Media provider:"
+msgstr "Medieleverandør:"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:80
+msgid "The absolute path to your file OR YouTube address"
+msgstr "Den absolutte sti til din fil ELLER YouTube-adresse"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:80
+msgid "Video:"
+msgstr "Video:"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:91
+msgid "The absolute path to your image preview"
+msgstr "Den absolutte sti til din billedpreview"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:91
+msgid "Image Preview (jpg or png):"
+msgstr "Billedpreview (JPG eller PNG)"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:102
+msgid "The absolute path to your HD video"
+msgstr "Den absolutte sti til dine HD-videoer"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:102
+msgid "HD Video for Player:"
+msgstr "HD-video til Player:"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:112
+msgid "The absolute path to your MP4 video for iPad, iPhone or iPod Touch"
+msgstr "Den absolutte sti til din MP4-video for iPad, iPhone eller iPod Touch"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:112
+msgid "iPhone-iPad Video (.mp4):"
+msgstr "iPhone/iPad-video (.mp4):"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:122
+msgid "The absolute path to your XML captions file"
+msgstr "Den absolutte sti til filen med dine <span title=\"XML captions\">XML-undertekster</span>"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:122
+msgid "Captions (.xml):"
+msgstr "Undertekster (.xml):"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:132
+msgid "Width &times; height in pixels"
+msgstr "Bredde &times; højde i pixels"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:132
+msgid "Dimensions:"
+msgstr "Dimensioner:"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:140
+msgid "Enable embed the player in other sites"
+msgstr "Aktivér indsættelse af player på andre sites"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:140
+msgid "Enable Embed:"
+msgstr "Aktivér indsættelse"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:151
+msgid "Enable the sharing of the URL of the post where the video is inserted"
+msgstr "Aktivér deling af URL på det indlæg, hvori videoen er indsat"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:151
+msgid "Enable URL Share:"
+msgstr "Aktivér URL-deling:"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:162
+msgid "Show the Dock for this player"
+msgstr "Vis dok for denne afspiller"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:162
+msgid "Dock:"
+msgstr "Dok:"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:178
+msgid "Set the Control Bar position and visibility"
+msgstr "Sæt position og synlighed for <span title=\"control bar\">betjeningspanelet</span>"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:178
+msgid "Control Bar:"
+msgstr "<span title=\"control bar\">Betjeningspanel:</span>"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:194
+msgid "Skin for this player"
+msgstr "<span title=\"skin\">Design</span> til denne afspiller"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:194
+msgid "Skin:"
+msgstr "<span title=\"skin\">Design</span>"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:210
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:1025
+msgid "LongTail Ads Code"
+msgstr "<span title=\"LongTail Ads Code\">LongTail-annoncekode</span>"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:210
+msgid "Ads Code:"
+msgstr "<span title=\"Ads Code\">Annoncekode</span>"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:218
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:1020
+msgid "Google Analytics Account ID like 'UA-123456-1'"
+msgstr "Konto-id fra Google Analytics, som fx 'UA-123456-1'"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:218
+msgid "Google Analytics:"
+msgstr "Google Analytics:"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:226
+msgid "The absolute path to your video player logo, if empty takes the default value on the plug-in settings"
+msgstr "Den absolutte sti til logoet for din videoafspiller. Hvis feltet er tomt, bruges standardværdien fra pluginindstillingerne"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:226
+msgid "Logo (jpg or png):"
+msgstr "Logo (JPG eller PNG):"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:236
+msgid "Set the desired bandwidth for cache and site bandwidth control"
+msgstr "Sæt den ønskede båndbredde for kontrol af cache og sitebåndbredde"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:236
+msgid "Bandwidth:"
+msgstr "Båndbredde:"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:253
+msgid "Your video title"
+msgstr "Din videotitel"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:253
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:1233
+msgid "Title:"
+msgstr "Titel"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:260
+msgid "Your video volume, from 0 to 100, if empty takes the default value on the plug-in settings"
+msgstr "Din videovolumen (fra 0 til 100. Hvis feltet er tomt, bruges standardværdien fra pluginindstillingerne)"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:260
+msgid "Volume:"
+msgstr "Volumen:"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:267
+msgid "Auto Start the video with the Stream Player"
+msgstr "Start automatisk videoen i Stream Player"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:267
+msgid "Auto Start:"
+msgstr "Start automatisk:"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:278
+msgid "To use another pseudo streaming script on other server, if is empty it takes the default value on the plug-in settings."
+msgstr "For at bruge et andet pseudostreaming-skript på en anden server (Hvis feltet er tomt, bruges standardværdien fra pluginindstillingerne)"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:278
+msgid "Streamer:"
+msgstr "Streamer:"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:285
+msgid "Fixes the HTML overlapping of the Flash Video by adding the parameter [wmode=opaque]."
+msgstr "Løser problemet med HTML-overlapning af flashvideo ved at tilføje parameteret [wmode=opaque]."
+
+#: d:\wordpress\plugins\stream-video-player/config.php:285
+msgid "Fix HTML overlapping:"
+msgstr "Løs HTML-overlapning:"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:296
+msgid "Generate"
+msgstr "Generér"
+
+#: d:\wordpress\plugins\stream-video-player/config.php:306
+msgid "Stream Video: This tag generator isn't going to put the stream video tag in your code."
+msgstr "Streamvideo: Denne tag-generator vil ikke indsætte streamvideotagget i din kode."
+
+#: d:\wordpress\plugins\stream-video-player/medialibrary.php:30
+msgid "You need to upload something in to your media library."
+msgstr "Du skal uploade noget til dit mediebibliotek."
+
+#: d:\wordpress\plugins\stream-video-player/medialibrary.php:42
+msgid "Select a file"
+msgstr "Vælg en fil"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:88
+msgid "You need to install or upgrade Flash Player to view this content, install or upgrade by "
+msgstr "Du skal installere eller opdatere Flash Player for at kunne se dette indhold. Installér eller opdatér "
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:214
+msgid "(Video: Available only on a desktop browser)"
+msgstr "(Video: Kan kun benyttes i en desktop-browser)"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:229
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:425
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:754
+msgid "(video)"
+msgstr "(video)"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:423
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:543
+msgid "(Video: Watch this video on the post page)"
+msgstr "(Video: Se denne video på indlægssiden)"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:803
+msgid "Video Properties"
+msgstr "Videoegenskaber"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:803
+msgid "Layout"
+msgstr "Layout"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:803
+msgid "Behavior"
+msgstr "Funktion"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:803
+msgid "System"
+msgstr "System"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:832
+msgid "Options saved."
+msgstr "Indstillinger gemt."
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:836
+msgid "Stream Video Options"
+msgstr "Stream Video-indstillinger"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:839
+msgid "Here you can set some default global options for all your videos, if you need help or more information on how to encode and prepare your video to be a pseudo stream compliant check out the"
+msgstr "Her kan du indstille nogle globale standardindstillinger for alle dine videoer. Hvis du har brug for hjælp eller flere informationer om, i hvilket format du skal gemme videoen og hvordan du skal forberede den, så den overholder pseudo-stream-standarden, så tjek disse"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:839
+msgid "FAQs"
+msgstr "FAQs"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:839
+msgid "where you can find a lot of free and open resources to encode your video."
+msgstr "hvor du kan finde mange gratis og åbne ressourcer til at gemme og formattere dine videoer med."
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:881
+msgid "Update Options"
+msgstr "Opdatér indstillinger"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:917
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:1230
+msgid "Title"
+msgstr "Titel"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:922
+msgid "Preview Image"
+msgstr "Previewbillede"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:929
+msgid "Player Width"
+msgstr "Bredde på afspiller"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:934
+msgid "Player Height"
+msgstr "Højde på afspiller"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:939
+msgid "Skin"
+msgstr "<span title=\"skin\">Design</span>"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:945
+msgid "Logo"
+msgstr "Logo"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:950
+msgid "Dock"
+msgstr "Dock"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:956
+msgid "Control Bar"
+msgstr "<span title=\"Control bar\">Betjeningspanel</span>"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:964
+msgid "Auto Start"
+msgstr "Autostart"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:969
+msgid "Startup Volume"
+msgstr "Startvolumen"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:975
+msgid "Show Share URL"
+msgstr "Vis URL til deling"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:980
+msgid "Show Embed HTML Code"
+msgstr "Vis HTML-kode til indsættelse"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:987
+msgid "Default media provider<br /><small>http = pseudo-streaming</small>"
+msgstr "Standard medieleverandør<br /><small>http = pseudo-streaming</small>"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:993
+msgid "Pseudo-Streamer URL"
+msgstr "URL for pseudostreamer"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:999
+msgid "Bandwidth"
+msgstr "Båndbredde"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:1005
+msgid "HTML Wrapper"
+msgstr "HTML-wrapper"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:1010
+msgid "Use own SWFObject.js"
+msgstr "Brug eget SWFObject.js"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:1015
+msgid "Show player only on single pages"
+msgstr "Vis kun afspiller på sider med enkelt-indlæg"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:1184
+msgid "Put your video tag short code here to include some widget videos."
+msgstr "Indsæt din videotag-kortkode her for at inkludere nogle widgetvideoer."
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:1237
+msgid "Video Tag:"
+msgstr "Videotag:"
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:1241
+msgid "Type or paste here a video tag short code to display a video, you can add multiple tags on this widget and text if you want, if you need a help generating a video tag enter to the page or post editor and generate one with the video tag generator, take in count the widget width size to make your video fit it, if your video is very small consider not using the control bar."
+msgstr "Indtast eller indsæt en videotag-kortkode her for at vise en video. Du kan tilføje flere tags i denne widget samt tekst, hvis du ønsker det. Hvis du ønsker hjælp til at generere et videotag, skal du gå ind i side- eller indlægseditoren og generere et med videotag-generatoren. Du skal tage widgettens bredde i betragtning, så videoen passer i størrelse. Hvis din video er meget lille, bør du overveje ikke at bruge <span title=\"control bar\">betjeningspanelet</span>."
+
+#: d:\wordpress\plugins\stream-video-player/stream-video-player.php:1244
+msgid "Display Title"
+msgstr "Vis titel"
+

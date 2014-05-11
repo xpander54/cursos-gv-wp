@@ -1,0 +1,424 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Stream Video Player PT-BR\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/stream-video-player\n"
+"POT-Creation-Date: 2010-02-07 01:31-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Rodrigo Polo <rodrigo.polo@gmail.com>\n"
+"Language-Team: Caciano Gabriel <cacianogabriel@hotmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: bootstrap.php:45
+msgid "You are not allowed to be here"
+msgstr "Acceso negado"
+
+#: config.php:37
+msgid "Learn how to encode &quot;stream-ready&quot; videos with multi-platform free-tools and<br />how to use this plug-in by "
+msgstr "Aprenda como codificar vídeos &quot;stream-ready&quot; com ferramentas gratuitas de multi-plataforma e também como utilizar este plug-in"
+
+#: config.php:38
+#: config.php:51
+#: stream-video-player.php:90
+msgid "clicking here"
+msgstr "clicando aqui"
+
+#: config.php:46
+msgid "WARNING:"
+msgstr ""
+
+#: config.php:46
+msgid "You don't have your crossdomain.xml file in the root folder of your web server, this file is required if you want to enable the &quot;embed&quot; option and to prevents issues loading content, however you can copy the crossdomain.xml included in this plug-in"
+msgstr ""
+
+#: config.php:47
+msgid "From:"
+msgstr ""
+
+#: config.php:49
+msgid "To:"
+msgstr ""
+
+#: config.php:51
+msgid "After copyng this file whis &quot;warning&quot; message will not appear, read more information about the crossdomain.xml"
+msgstr ""
+
+#: config.php:53
+msgid "indicates required field"
+msgstr "indica um campo necessário"
+
+#: config.php:55
+msgid "Stream Player Tag Atributes"
+msgstr "Atributos de tag do Stream Player"
+
+#: config.php:58
+msgid "Base URL to save writing over and over again the full URL for the flv, img, mp4, hd and captions tags"
+msgstr "URL base para evitar sobrescrever um URL para tags flv, img, mp4, hd e captions"
+
+#: config.php:58
+msgid "Base URL:"
+msgstr "URL Base:"
+
+#: config.php:68
+msgid "Set the media provider, &quot;http&quot; is for pseudo-streming and is enable by default, choose &quot;video&quot; for progressively downloaded FLV, MP4, and AAC audio, choose &quot;sound&quot; for progressively downloaded MP3 files, choose &quot;image&quot; for JPG/GIF/PNG images, choose &quot;youtube&quot; for videos from Youtube and &quot;rtmp&quot; for FLV/MP4/MP3 files played from an RTMP server."
+msgstr "Configura a opção de provedor de mídia, &quot;http&quot; para um pseudo-streming e está habilitado por padrão, escolha a opção &quot;vídeo&quot; para vídeos com download progressivo como FLV, MP4 e Áudio AAC, escolha &quot;som&quot; para arquivos MP3 com download progressivo, escolha &quot;imagem&quot; para arquivos JPG /  GIF / PNG, escolha &quot;youtube&quot; para vídeos do YouTube e &quot;rtmp&quot; para arquivos FLV/MP4/MP3 de servidores RTMP"
+
+#: config.php:68
+msgid "Media provider:"
+msgstr "Provedor de mídia:"
+
+#: config.php:85
+msgid "The absolute path to your file OR YouTube address"
+msgstr "Caminho absoluto para seu arquivo ou URL do YouTube"
+
+#: config.php:85
+msgid "Video:"
+msgstr "Vídeo:"
+
+#: config.php:96
+msgid "The absolute path to your image preview"
+msgstr "Caminho absoluto para sua prévia de imagem"
+
+#: config.php:96
+msgid "Image Preview (jpg or png):"
+msgstr "Prévia de Imagem (jpg ou png):"
+
+#: config.php:107
+msgid "The absolute path to your HD video"
+msgstr "Caminho absoluto para seu arquivo de vídeo HD"
+
+#: config.php:107
+msgid "HD Video for Player:"
+msgstr "Vídeo HD para o Player:"
+
+#: config.php:117
+msgid "The absolute path to your MP4 video for iPad, iPhone or iPod Touch"
+msgstr "Caminho absoluto para seu arquivo de vídeo MP4 para iPad, iPhone ou iPod Touch"
+
+#: config.php:117
+msgid "iPhone-iPad Video (.mp4):"
+msgstr "Vídeo para iPhone-iPad (.mp4):"
+
+#: config.php:127
+msgid "The absolute path to your XML captions file"
+msgstr "Caminho absoluto para arquivos XML de legendas"
+
+#: config.php:127
+msgid "Captions (.xml):"
+msgstr "Legendas (.xml)"
+
+#: config.php:137
+msgid "Width &times; height in pixels"
+msgstr "Largura &times; altura em pixels."
+
+#: config.php:137
+msgid "Dimensions:"
+msgstr "Dimensões:"
+
+#: config.php:145
+msgid "Enable embed the player in other sites"
+msgstr "Ativar inserção do player em outros sites."
+
+#: config.php:145
+msgid "Enable Embed:"
+msgstr "Ativar Inserção Externa:"
+
+#: config.php:156
+msgid "Enable the sharing of the URL of the post where the video is inserted"
+msgstr "Ativar compartilhamento de URL do post onde o vídeo está inserido"
+
+#: config.php:156
+msgid "Enable URL Share:"
+msgstr "Ativar compartilhamento de URL:"
+
+#: config.php:167
+msgid "Show the Dock for this player"
+msgstr "Mostrar o Dock para este player"
+
+#: config.php:167
+msgid "Dock:"
+msgstr "Dock:"
+
+#: config.php:183
+msgid "Set the Control Bar position and visibility"
+msgstr "Ajustar posição e visibilidade da Barra de Controle"
+
+#: config.php:183
+msgid "Control Bar:"
+msgstr "Barra de Controle:"
+
+#: config.php:199
+msgid "Skin for this player"
+msgstr "Skin para este player"
+
+#: config.php:199
+msgid "Skin:"
+msgstr "Skin:"
+
+#: config.php:215
+msgid "LongTail Ads Code"
+msgstr "Código para anúncios LongTail"
+
+#: config.php:215
+msgid "Ads Code:"
+msgstr "Código para anúncios"
+
+#: config.php:223
+msgid "The absolute path to your video player logo, if empty takes the default value on the plug-in settings"
+msgstr "Caminho absoluto para o logo de seu vídeo player, se vazio pega o valor padrão das configurações do plugin"
+
+#: config.php:223
+msgid "Logo (jpg or png):"
+msgstr "Logo (jpg ou png):"
+
+#: config.php:233
+msgid "Set the desired bandwidth for cache and site bandwidth control"
+msgstr "Configura a largura de banda (bandwidth) desejada para o cache e o controle da largura da banda "
+
+#: config.php:233
+msgid "Bandwidth:"
+msgstr "Largura de banda:"
+
+#: config.php:250
+msgid "Your video title"
+msgstr "Título do vídeo"
+
+#: config.php:250
+#: stream-video-player.php:1201
+msgid "Title:"
+msgstr "Título:"
+
+#: config.php:257
+msgid "Your video volume, from 0 to 100, if empty takes the default value on the plug-in settings"
+msgstr "Volume do vídeo, de 0 a 100, se vazio pega o valor padrão das configurações do plugin"
+
+#: config.php:257
+msgid "Volume:"
+msgstr "Volume:"
+
+#: config.php:264
+msgid "Auto Start the video with the Stream Player"
+msgstr "Início automático do vídeo com o Stream Player"
+
+#: config.php:264
+msgid "Auto Start:"
+msgstr "Início automático:"
+
+#: config.php:275
+msgid "To use another pseudo streaming script on other server, if is empty it takes the default value on the plug-in settings."
+msgstr "Para utilizar outro arquivo de pseudo-streaming em outro servidor, se vazio pega o valor padrão das configurações do plugin."
+
+#: config.php:275
+msgid "Streamer:"
+msgstr "Streamer:"
+
+#: config.php:282
+msgid "Fixes the HTML overlapping of the Flash Video by adding the parameter [wmode=opaque]."
+msgstr "Arruma o sobreposição do Flash Vídeo sobre o HTML adicionando o parâmetro [wmode=opaue]."
+
+#: config.php:282
+msgid "Fix HTML overlapping:"
+msgstr "Arrumar a sobreposição HTML:"
+
+#: config.php:293
+msgid "Generate"
+msgstr "Gerar"
+
+#: config.php:302
+msgid "Stream Video: This tag generator isn't going to put the stream video tag in your code."
+msgstr "Stream Video: Este gerador de tags não colocará a tag de stream video em seu código."
+
+#: medialibrary.php:30
+msgid "Select a file"
+msgstr "Selecione um arquivo"
+
+#: stream-video-player.php:88
+msgid "You need to install or upgrade Flash Player to view this content, install or upgrade by "
+msgstr "Você precisa instalar ou atualizar sua versão do Flash Player para ver este conteúdo, instale ou atualize"
+
+#: stream-video-player.php:214
+msgid "(Video: Available only on a desktop browser)"
+msgstr "(Vídeo: Disponível apenas em navegadores desktop)"
+
+#: stream-video-player.php:229
+#: stream-video-player.php:425
+#: stream-video-player.php:733
+msgid "(video)"
+msgstr "(vídeo)"
+
+#: stream-video-player.php:423
+#: stream-video-player.php:529
+msgid "(Video: Watch this video on the post page)"
+msgstr "(Vídeo: Veja este vídeo em sua respectiva página)"
+
+#: stream-video-player.php:782
+msgid "Video Properties"
+msgstr "Propriedades do Vídeo"
+
+#: stream-video-player.php:782
+msgid "Layout"
+msgstr "Layout"
+
+#: stream-video-player.php:782
+msgid "Behavior"
+msgstr "Comportamento"
+
+#: stream-video-player.php:782
+msgid "System"
+msgstr "Sistema"
+
+#: stream-video-player.php:811
+msgid "Options saved."
+msgstr "Opções salvas."
+
+#: stream-video-player.php:815
+msgid "Stream Video Options"
+msgstr "Opções do Stream Vídeo"
+
+#: stream-video-player.php:818
+msgid "Here you can set some default global options for all your videos, if you need help or more information on how to encode and prepare your video to be a pseudo stream compliant check out the"
+msgstr "Aqui você pode configurar algumas opções globais para todos os seus vídeos, se você precisar de ajuda ou mais informações a respeito de como codificar e preparar seus vídeos para serem compatíveis con o método do pseudo stream visite o "
+
+#: stream-video-player.php:818
+msgid "FAQs"
+msgstr "FAQ"
+
+#: stream-video-player.php:818
+msgid "where you can find a lot of free and open resources to encode your video."
+msgstr "onde você pode encontrar muito recursos livres e de código aberto para seus vídeos."
+
+#: stream-video-player.php:860
+msgid "Update Options"
+msgstr "Atualizar Opções"
+
+#: stream-video-player.php:896
+#: stream-video-player.php:1198
+msgid "Title"
+msgstr "Título"
+
+#: stream-video-player.php:901
+msgid "Preview Image"
+msgstr "Prévia de Imagem"
+
+#: stream-video-player.php:908
+msgid "Player Width"
+msgstr "Largura do Player"
+
+#: stream-video-player.php:913
+msgid "Player Height"
+msgstr "Altura do Player"
+
+#: stream-video-player.php:918
+msgid "Skin"
+msgstr "Skin"
+
+#: stream-video-player.php:924
+msgid "Logo"
+msgstr "Logo"
+
+#: stream-video-player.php:929
+msgid "Dock"
+msgstr "Dock"
+
+#: stream-video-player.php:935
+msgid "Control Bar"
+msgstr "Barra de Controle"
+
+#: stream-video-player.php:943
+msgid "Auto Start"
+msgstr "Início Automático"
+
+#: stream-video-player.php:948
+msgid "Startup Volume"
+msgstr "Volume de início"
+
+#: stream-video-player.php:954
+msgid "Show Share URL"
+msgstr "Mostrar Compartilhamento de URL"
+
+#: stream-video-player.php:959
+msgid "Show Embed HTML Code"
+msgstr "Mostrar código HTML"
+
+#: stream-video-player.php:966
+msgid "Default media provider<br /><small>http = pseudo-streaming</small>"
+msgstr "Provedor de mídia padrão<br /><small>http = pseudo-streaming</small>"
+
+#: stream-video-player.php:972
+msgid "Pseudo-Streamer URL"
+msgstr "URL do Pseudo-Streamer"
+
+#: stream-video-player.php:978
+msgid "Bandwidth"
+msgstr "Largura de banda"
+
+#: stream-video-player.php:984
+msgid "HTML Wrapper"
+msgstr "Envoltório HTML"
+
+#: stream-video-player.php:989
+msgid "Use own SWFObject.js"
+msgstr "Usar SWFObject.js próprio"
+
+#: stream-video-player.php:994
+msgid "Show player only on single pages"
+msgstr "Mostrar o Player apenas em páginas \"single\""
+
+#: stream-video-player.php:1152
+msgid "Put your video tag short code here to include some widget videos."
+msgstr "Coloque a tag short code do vídeo aqui para incluir um widget de vídeos."
+
+#: stream-video-player.php:1205
+msgid "Video Tag:"
+msgstr "Tag de Vídeo:"
+
+#: stream-video-player.php:1209
+msgid "Type or paste here a video tag short code to display a video, you can add multiple tags on this widget and text if you want, if you need a help generating a video tag enter to the page or post editor and generate one with the video tag generator, take in count the widget width size to make your video fit it, if your video is very small consider not using the control bar."
+msgstr "Digite ou cole aqui uma tag short code para visualizar um vídeo, você pode adicionar múltiplas tags neste widget e texto se desejar, se você precisar de ajuda para gerar uma tag de vídeo, entre no editor de posts e páginas e gere uma com o Gerador de Tags de Vídeo, leve em consideração a largura do widget  para que seu vídeo de encaixe dentro dele, se seu vídeo é muito pequeno é melhor não usar a barra de controle e o dock."
+
+#: stream-video-player.php:1212
+msgid "Display Title"
+msgstr "Mostrar título"
+
+#. Plugin Name of an extension
+msgid "Stream Video Player"
+msgstr "Stream Video Player"
+
+#. Plugin URI of an extension
+msgid "http://rodrigopolo.com/about/wp-stream-video"
+msgstr "http://rodrigopolo.com/about/wp-stream-video"
+
+#. Description of an extension
+msgid "By far the best and most complete video-audio player plug-in for WordPress. iPhone, iPad and HD video compatible."
+msgstr "De longe o melhor e mais completo plugin de áudio e vídeo para WordPress. Compatível com iPhone, iPad e Vídeos HD."
+
+#. Author of an extension
+msgid "Rodrigo Polo"
+msgstr "Rodrigo Polo"
+
+#. Author URI of an extension
+msgid "http://rodrigopolo.com"
+msgstr "http://rodrigopolo.com"
+
+#~ msgid "URL Base:"
+#~ msgstr "URL Base:"
+#~ msgid "Video for iPhone (.mp4):"
+#~ msgstr "Video para iPhone (.mp4):"
+#~ msgid ""
+#~ "The best way to include Stream Video to your blog, iPhone and HD video "
+#~ "compatible. (SWFObject by Geoff Stearns)"
+#~ msgstr ""
+#~ "La mejor forma de incluir Video Stream a tu blog, iPhone y HD "
+#~ "cinpoatible.  (SWFObject por Geoff Stearns)"
+#~ msgid "Video for Player:"
+#~ msgstr "Video para el Player"
+#~ msgid "The absolute path to your FLV video (injected .flv file)"
+#~ msgstr "La ruta absoluta al video FLV (archivo .flv injectado)"
+#~ msgid "The absolute path to your HD-FLV video (injected .flv file)"
+#~ msgstr ""
+#~ "La ruta absoluta al archivo de video HD-FLV (archivo .flv injectado)"
+
